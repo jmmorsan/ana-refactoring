@@ -22,3 +22,8 @@ hecho el compañero y, si lo crees oportuno, aceptarás el pull request para que
 modificaciones sean efectivas.
 NOTA: Documentar y entregar todas las acciones realizadas con las correspondientes
 capturas de pantalla.
+Cambios de la variable n de nombre a num
+Cambio en el metodo MEDAINEGATIVO  a nombre mediaNegativo
+
+
+

@@ -68,22 +68,22 @@ public class Actividad4 {
 	public static void main(String[] args) {
 		var sc = new Scanner (System.in);
 		
-		//Solicitamos la cantidad de números del array y lo creamos para almacenar
+		
 		System.out.println("Introduzca la cantidad de números (n): ");
 		int n = sc.nextInt();
 		
 		int [] numeros = new int[n];
 		
 		
-		//Solicitamos al usuario los números
+		
 		for(int i=0; i < n; i++) {
 			System.out.print("Introduzca el número " + (i + 1) + ": ");
             numeros[i] = sc.nextInt();
 			
-			System.out.println("La suma de los números introducidos es: " + sumaNumeros(numeros));
-			System.out.println("La resta de los números introducidos es: " + restaNumeros(numeros));
-			System.out.println("La multiplicación de los números introducidos es: " + multiplicacionNumeros(numeros));
-			System.out.println("La división de los números introducidos es: " + divisionNumeros(numeros));
+			System.out.println("La suma: " + sumaNumeros(numeros));
+			System.out.println("La resta: " + restaNumeros(numeros));
+			System.out.println("La multiplicación: " + multiplicacionNumeros(numeros));
+			System.out.println("La división: " + divisionNumeros(numeros));
 			
 			
 		}

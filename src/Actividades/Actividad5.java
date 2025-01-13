@@ -5,27 +5,27 @@ public class Actividad5 {
 	public static double mediaPositivo(int [] numeros) {
 		
 		
-		double mediaPositivo=0;
-		int contnumPositivo=0;
-		int sumaPositivos=0;
+		double MediaPositivo=0;
+		int ContnumPositivo=2;
+		int SumaPositivos=0;
 		
 		
 		for(int i=0; i < numeros.length; i++) {
 			
 			if (numeros[i] > 0) {
-				contnumPositivo++;
-				sumaPositivos += i;
+				ContnumPositivo++;
+				SumaPositivos += i;
 					
 		}
 		
-		mediaPositivo= (double)sumaPositivos/contnumPositivo;
+		MediaPositivo= (double)SumaPositivos/ContnumPositivo;
 			
 	}
 		
-		return mediaPositivo;
+		return MediaPositivo;
 }
 	
-	public static double mediaNegativo(int [] numeros) {
+	public static double MEDIANEGATIVO(int [] numeros) {
 		
 		double mediaNegativo = 0;
 		
@@ -68,7 +68,7 @@ public class Actividad5 {
 		}
 		
 		System.out.println("La media de números positivos introducidos es: " + mediaPositivo(numeros));
-		System.out.println("La media de números negativos introducidos es: " + mediaNegativo(numeros));
+		System.out.println("La media de números negativos introducidos es: " + MEDIANEGATIVO(numeros));
 		System.out.println("La cantidad de números 0 introducidos es: " + contCero);
 	
 	}

@@ -25,5 +25,15 @@ capturas de pantalla.
 Cambios de la variable n de nombre a num
 Cambio en el metodo MEDAINEGATIVO  a nombre mediaNegativo
 
+*Comentario de Juanma*
 
+Cambios realizados:
+
+1-Cálculos fuera del bucle principal: Los métodos de suma, resta, multiplicación y división ahora se ejecutan solo una vez, después de que todos los números hayan sido ingresados.
+
+2-Uso de foreach en los métodos: Reemplacé el bucle for por un bucle foreach en sumaNumeros() y multiplicacionNumeros() para mejorar la legibilidad.
+
+3-Inicialización y errores en multiplicación y división: Los cálculos de multiplicación y división se inicializan correctamente y se maneja el error de división/multiplicación por cero solo una vez.
+
+4-Refactorización de los bucles: Los bucles de resta y multiplicación empiezan en el índice 1 para evitar usar el primer valor varias veces.
 
